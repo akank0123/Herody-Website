@@ -579,7 +579,7 @@
                             <h4 class="widget-title">Contact Us</h4>
                            <div class="contact-content">
                                 <div class="phone-number">
-                                    <span>Akanksha Number</span>
+                                    <span>Company Number</span>
                                     <a href="tel:02269124061">
                                         <i class="fa-solid fa-phone"></i>
                                         02269124061
