@@ -41,6 +41,31 @@
     font-weight: 600;
     line-height: 88px;
 }
+.slider{
+	height: 250px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: auto;
+}
+.slider .slide-track{
+	animation: scroll 30s linear infinite;
+	display: flex;
+	width: calc(250px * 14);
+}
+@keyframes scroll{
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(calc(-250px * 7));
+	}
+}
+.slider .slide{
+	height: 230px;
+	width: 300px;
+    padding:15px;
+}
     </style>
  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1TFE7Z5PC"></script>
@@ -368,8 +393,85 @@
    
    
     <!--====== Counter Section End ======-->
+    <section class="call-to-action style-two" style="background-image:linear-gradient(blue,lightpink)">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-12">
+                    <div class="cta-content">
+                        <h2 class="title">Download the Herody App now & Start your journey of earning money </h2>
+                        
+                    </div>
+                </div>
+                <!-- <div class="col-auto">
+                    <p class="cta-note">App is live on Google Play Store</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.jaketa.herody" class="template-btn bordered-white">Download the App Now <i class="fa-brands fa-google-play"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="skill-section section-gap bg-color-primary-7 bg-cover-center" style="background-image: url({{asset('assets/digital/assets/img/service-bg-2.jpg')}});">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="section-heading text-center mb-40">
+                    <h3 class="title">Brand That Trust us</h3>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="https://www.1mg.com/images/tata_1mg_logo.svg" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://media.swipepages.com/2021/9/guvi-logo-svg-2x-1-300-1.png" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://www.anthemis.com/wp-content/uploads/2020/02/stocktwits-LOGO-20200115.png" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://images.news18.com/ibnlive/uploads/2021/06/1623400286_waazirx.jpg" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://imgur.com/gYylUtm.png" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://play-lh.googleusercontent.com/ryuYnI5Uy3GWAYFOYQJI-3IN1Gb0tPhd_UYeTuZA7AjP3NxL2ViTOrf5QsIIFNCWBdg" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Altbalaji_Logo.svg/1200px-Altbalaji_Logo.svg.png" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://play-lh.googleusercontent.com/UP6ycSfGJD7_tsgxBc2uT5-jZKXDsmh-xy3OiYyS8DvZqNTV-YV0vr4MiHxzgcfpyfh_" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLTRL7wSUj3TgGCio4HGEdI2pBjVkwSHX_lbUv5J2g=s900-c-k-c0x00ffffff-no-rj" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://static.businessworld.in/article/article_extra_large_image/1592306157_OnYVcO_upGrad.jpg" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLSYtcTB8_vP8SKdGZFU2Gmu-yBEoNwrxCglQG5dtkQ=s900-c-k-c0x00ffffff-no-rj" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://cdn.techinasia.com/data/images/CyiHd2qjZScc0c7VSRY6xBSijZDbX0YjwiqHEIZn.jpeg" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/modified/5ef59a0e-f928-431b-9aed-19cbb789994a.png" alt="Image" width="150%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://image4.owler.com/logo/myscoot_owler_20190801_114744_original.jpg" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/HERE_logo.svg/1124px-HERE_logo.svg.png" alt="Image" width="100%" height="100%">
+                </div>
+                <div class="slide">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/TechGig.com_Logo.png" alt="Image" width="150%" height="100%">
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="skill-section section-gap bg-color-primary-7 bg-cover-center" style="background-image: url({{asset('assets/digital/assets/img/service-bg.jpg')}});">
+<!-- <section class="skill-section section-gap bg-color-primary-7 bg-cover-center" style="background-image: url({{asset('assets/digital/assets/img/service-bg.jpg')}});">
     <div class="container">
             <div class="row justify-content-center">
                
@@ -479,7 +581,7 @@
                         </div>
                 </div>
            </div>
-        </section>
+        </section> -->
     <!--====== Team With Video End ======-->
 
     <!--====== Faq Section Start ======-->
