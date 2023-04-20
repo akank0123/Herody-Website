@@ -42,14 +42,14 @@
     line-height: 88px;
 }
     </style>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-755B56WGPL"></script>
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1TFE7Z5PC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-755B56WGPL');
+  gtag('config', 'G-Q1TFE7Z5PC');
 </script>
 </head>
 
