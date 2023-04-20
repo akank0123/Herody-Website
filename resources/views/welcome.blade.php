@@ -393,7 +393,7 @@
    
    
     <!--====== Counter Section End ======-->
-    <section class="call-to-action style-two" style="background-image:linear-gradient(blue,lightpink)">
+    <!-- <section class="call-to-action style-two" style="background-image:linear-gradient(blue,lightpink)">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-12">
@@ -402,13 +402,13 @@
                         
                     </div>
                 </div>
-                <!-- <div class="col-auto">
+                <div class="col-auto">
                     <p class="cta-note">App is live on Google Play Store</p>
                     <a href="https://play.google.com/store/apps/details?id=com.jaketa.herody" class="template-btn bordered-white">Download the App Now <i class="fa-brands fa-google-play"></i></a>
-                </div> -->
+                </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="skill-section section-gap bg-color-primary-7 bg-cover-center" style="background-image: url({{asset('assets/digital/assets/img/service-bg-2.jpg')}});">
         <div class="container">
             <div class="row justify-content-center">
