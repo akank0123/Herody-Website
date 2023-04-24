@@ -758,12 +758,6 @@
                     <a href="https://en.hamarasamachar.in/p/businessnewswire.html?for=N&Value=gC00DoCM4uiupuPOSO3apQj8jDpE6y7UaQiclzLTcHpuogj8T4huQE3%2fVgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 7.png')}}" alt="Image" width="100%" height="100%"></a>
                 </div>
                 <div class="slide">
-                    <a href="https://theprint.in/ani-press-releases/gig-working-platform-herody-to-create-over-10-million-jobs/1095612/" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 11.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://www.zee5.com/articles/gig-working-platform-herody-to-create-over-10-million-jobs" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 21.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
                     <a href="https://www.startupcityindia.com/business-express?for=N&Value=rw3atwrGCUEGnA3cLVAHjggqB8Cp78obTwg2wdjqvm5BrAjJxK7AO66yfwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 12.png')}}" alt="Image" width="100%" height="100%"></a>
                 </div>
                 <div class="slide">
