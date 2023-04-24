@@ -44,7 +44,6 @@
 .slider{
 	height: 250px;
 	margin: auto;
-	/* overflow: hidden; */
 	position: relative;
 	width: auto;
 }
@@ -74,20 +73,16 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-Q1TFE7Z5PC');
 </script>
 </head>
-
-<body>
-    
+<body>  
  <div id="preloader">
         <div id="loading-center">
             <div id="object"></div>
         </div>
     </div>
     <!--====== End Preloader ======-->
-
     <!--====== Start Header ======-->
     <header class="template-header absolute-header navbar-left sticky-header">
         <div class="topbar">
@@ -105,27 +100,21 @@
                         <ul class="primary-menu">
                            <li>
                                 <a class="active" href="https://herody.in">Home</a>
-                                
                             </li>
                             <li>
                                 <a  href="https://herody.in/gigworkers">Gigworkers</a>
-                               
                             </li>
                             <li>
-                                <a  href="https://herody.in/businesses">Businesses</a>
-                               
+                                <a  href="https://herody.in/businesses">Businesses</a> 
                             </li>
                             <li>
                                 <a href="#about">About</a>
-                                
                             </li>
                             <li>
-                                <a href="#contact">Contact</a>
-                               
+                                <a href="#contact">Contact</a>  
                             </li>
                             <li>
                                 <a href="https://herody.in/privacy-policy">Privacy Policy</a>
-                                
                             </li>
                         </ul>
                     </nav>
@@ -134,8 +123,8 @@
                     <ul class="header-extra">
                         <li class="header-btns d-none d-md-block">
                             <a href="{{ route('bform') }}" class="template-btn" >
-  Get Started <i class="fa-solid fa-long-arrow-right"></i>
-</a>
+                                Get Started <i class="fa-solid fa-long-arrow-right"></i>
+                            </a>
                         </li>
                         <li class="d-xl-none">
                             <div class="navbar-toggler">
@@ -152,30 +141,23 @@
         <div class="slide-panel mobile-slide-panel">
             <div class="panel-overlay"></div>
             <div class="panel-inner">
-                <div class="panel-logo">
-                    
-                </div>
+                <div class="panel-logo"></div>
                 <nav class="mobile-menu">
                     <ul class="primary-menu">
                         <li>
-                                <a class="active" href="https://herody.in">Home</a>
-                                
-                            </li>
-                            <li>
-                                <a  href="https://herody.in/gigworkers">Gigworkers</a>
-                               
-                            </li>
-                            <li>
-                                <a  href="https://herody.in/businesses">Businesses</a>
-                               
-                            </li>
+                            <a class="active" href="https://herody.in">Home</a>  
+                        </li>
+                        <li>
+                            <a  href="https://herody.in/gigworkers">Gigworkers</a>
+                        </li>
+                        <li>
+                            <a  href="https://herody.in/businesses">Businesses</a>   
+                        </li>
                         <li>
                             <a href="#about">About</a>
-                            
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
-                           
                         </li>
                     </ul>
                 </nav>
@@ -186,7 +168,6 @@
         </div>
     </header>
     <!--====== End Header ======-->
-
     <!--====== Start Hero Area ======-->
     <section class="hero-area-three">
         <div class="container">
@@ -202,13 +183,11 @@
                        <br>
                        <p class="wow fadeInLeft">For Gigworkers/ Students</p>
                         <ul class="hero-btns">
-                            
                             <li class="wow fadeInUp" data-wow-delay="0.5s">
                                 <a href="https://play.google.com/store/apps/details?id=com.jaketa.herody" class="template-btn">
                                    Join Now <i class="fa-solid fa-long-arrow-right"></i>
                                 </a>
                             </li>
-                            
                         </ul>
                     </div>
                 </div>
@@ -234,28 +213,27 @@
                             Fulfill your requirement with end-to-end Project Execution from us.
                         </p>
                         <a type="button" class="template-btn" href="{{ route('bform') }}">
-  Get Started With Us <i class="fa-solid fa-long-arrow-right"></i>
-</a>
-                </div>
-                <div class="col-12">
-                    <div class="hero-img wow fadeInDown" data-wow-delay="0.4s">
-                        <img src="{{asset('assets/digital/assets/img/hero/hero-illustration-two.png')}}" alt="Illustration">
+                            Get Started With Us <i class="fa-solid fa-long-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <div class="hero-img wow fadeInDown" data-wow-delay="0.4s">
+                            <img src="{{asset('assets/digital/assets/img/hero/hero-illustration-two.png')}}" alt="Illustration">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="animate-icons">
-            <img src="{{asset('assets/digital/assets/img/shape/gradient-pipe.png')}}" alt="particles" class="icon-one animate-rotate-me">
-            <img src="{{asset('assets/digital/assets/img/shape/wave-line.png')}}" alt="particles" class="icon-two animate-float-bob-x">
-            <img src="{{asset('assets/digital/assets/img/shape/stars.png')}}" alt="particles" class="icon-three animate-float-bob-x">
-            <img src="{{asset('assets/digital/assets/img/shape/triangle.png')}}" alt="particles" class="icon-four animate-float-bob-y">
-            <img src="{{asset('assets/digital/assets/img/shape/triangle-2.png')}}" alt="particles" class="icon-five animate-rotate-me">
-            <img src="{{asset('assets/digital/assets/img/shape/circle.png')}}" alt="particles" class="icon-six animate-zoom-fade">
-            <img src="{{asset('assets/digital/assets/img/shape/circle-small.png')}}" alt="particles" class="icon-seven animate-float-bob-y">
-        </div>
+            <div class="animate-icons">
+                <img src="{{asset('assets/digital/assets/img/shape/gradient-pipe.png')}}" alt="particles" class="icon-one animate-rotate-me">
+                <img src="{{asset('assets/digital/assets/img/shape/wave-line.png')}}" alt="particles" class="icon-two animate-float-bob-x">
+                <img src="{{asset('assets/digital/assets/img/shape/stars.png')}}" alt="particles" class="icon-three animate-float-bob-x">
+                <img src="{{asset('assets/digital/assets/img/shape/triangle.png')}}" alt="particles" class="icon-four animate-float-bob-y">
+                <img src="{{asset('assets/digital/assets/img/shape/triangle-2.png')}}" alt="particles" class="icon-five animate-rotate-me">
+                <img src="{{asset('assets/digital/assets/img/shape/circle.png')}}" alt="particles" class="icon-six animate-zoom-fade">
+                <img src="{{asset('assets/digital/assets/img/shape/circle-small.png')}}" alt="particles" class="icon-seven animate-float-bob-y">
+            </div>
         </div>
     </section>
-
     <section class="service-section section-gap">
         <div class="container">
             <div class="section-heading text-center mb-30">
@@ -269,7 +247,6 @@
                             <img src="{{asset('assets/digital/assets/business-report.png')}}" alt="Icon">
                         </div>
                         <div class="content">
-                           
                             <p>A company that Helps you to eliminate your complex business requirements</p>
                         </div>
                     </div>
@@ -280,7 +257,6 @@
                             <img src="{{asset('assets/digital/assets/leader.png')}}" alt="Icon">
                         </div>
                         <div class="content">
-                           
                             <p>An experienced team that worked with over 300+ brands over a span of 2 years</p>
                         </div>
                     </div>
@@ -291,7 +267,6 @@
                             <img src="{{asset('assets/digital/assets/map.png')}}" alt="Icon">
                         </div>
                         <div class="content">
-                           
                             <p>We help you take your brand PAN India without hiring costs.</p>
                         </div>
                     </div>
@@ -302,7 +277,6 @@
                             <img src="{{asset('assets/digital/assets/network.png')}}" alt="Icon">
                         </div>
                         <div class="content">
-                            
                             <p>Strong ambassador network of 2,00,000+ Gigworkers</p>
                         </div>
                     </div>
@@ -313,7 +287,6 @@
                             <img src="{{asset('assets/digital/assets/pay-per-click.png')}}" alt="Icon">
                         </div>
                         <div class="content">
-                           
                             <p>We follow the pay-per-output model</p>
                         </div>
                     </div>
@@ -322,18 +295,14 @@
             </div>
         </div>
     </section>
-
-
     <!--====== Start Service Section ======-->
     <section class="service-section section-gap">
         <div class="container">
             <div class="row justify-content-center">
-               
-                    <div class="section-heading text-center mb-40">
-                        <h3 class="title">Why do Gigworkers work with us?</h3>
-                        <span class="tagline">Herody helps gigworkers to start the journey of regular earnings by working remotely. We also help them to get growth opportunities by enhancing their skillset.</span>
-                    </div>
-            
+                <div class="section-heading text-center mb-40">
+                    <h3 class="title">Why do Gigworkers work with us?</h3>
+                    <span class="tagline">Herody helps gigworkers to start the journey of regular earnings by working remotely. We also help them to get growth opportunities by enhancing their skillset.</span>
+                </div>
             </div>
         </div>
         <div class="container-fluid fluid-p-70">
@@ -390,11 +359,7 @@
         </div>
     </section>
     <!--====== End Service Section ======-->
-
-   
-   
     <!--====== Counter Section End ======-->
-
     <section class="skill-section section-gap bg-color-primary-7 bg-cover-center" style="background-image: url({{asset('assets/digital/assets/img/service-bg-2.jpg')}});">
         <div class="container">
             <div class="row justify-content-center">
@@ -601,7 +566,6 @@
             </div>
         </div>
     </section>
-
     <section class="call-to-action style-two" style="background-image:linear-gradient(blue,lightpink)">
         <div class="container">
             <div class="row align-items-center justify-content-between">
@@ -611,10 +575,6 @@
                         
                     </div>
                 </div>
-                <!-- <div class="col-auto">
-                    <p class="cta-note">App is live on Google Play Store</p>
-                    <a href="https://play.google.com/store/apps/details?id=com.jaketa.herody" class="template-btn bordered-white">Download the App Now <i class="fa-brands fa-google-play"></i></a>
-                </div> -->
             </div>
         </div>
     </section>
@@ -740,22 +700,13 @@
         </div>
     </section>
     <!--====== Team With Video End ======-->
-
-    <!--====== Faq Section Start ======-->
-   
-    <!--====== Faq Section End ======-->
-
-   
-    <!--====== Pricing Section End ======-->
-
     <!--====== Call To Action Start ======-->
     <section class="call-to-action style-two bg-color-secondary">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-7">
                     <div class="cta-content">
-                        <h2 class="title">Download the Herody App now & Start your journey of earning money                             </h2>
-                        
+                        <h2 class="title">Download the Herody App now & Start your journey of earning money</h2>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -890,12 +841,10 @@
                 <div class="slide">
                     <a href="https://channeldrive.in/businesswireindia/?for=N&Value=JOkQcVbgyerj89465ajXXAjuBy0Pw3tGAAjSkFDamH%2bB6ggWrLE2tCFRRwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 40.png')}}" alt="Image" width="100%" height="100%"></a>
                 </div>
-                
             </div>
         </div>
     </section>
     <!--====== Team With Video End ======-->
-
     <!--====== Template Footer Start ======-->
     <footer class="template-footer">
         <div class="container">
@@ -925,20 +874,17 @@
                             </div>
                         </div>
                     </div>
-                    
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="widget newsletters-widget pl-xl-4">
                             <h4 class="widget-title">Businesses</h4>
                             <p>
                                 For any business releated queries reach us out at <a class="info-title" href="sales@herody.in">sales@herody.in</a>
                             </p>
-                           
                             <ul class="social-links">
                                 <li><span>Follow Us: </span></li>
                                <li><a href="https://www.facebook.com/herodywebsite"><i class="fa-brands fa-facebook-square"></i></a></li>
                                  <li><a href="https://www.instagram.com/herodyapp/"><i class="fa-brands fa-instagram-square"></i></a></li>
                                 <li><a href="https://www.linkedin.com/company/herody/"><i class="fa-brands fa-linkedin"></i></a></li>
-                            
                             </ul>
                         </div>
                     </div>
@@ -949,7 +895,6 @@
             </div>
         </div>
     </footer>
-
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="{{asset('assets/digital/assets/js/jquery-3.6.0.min.js')}}"></script>
     <!--====== Bootstrap ======-->
@@ -973,5 +918,4 @@
     <!--====== Main JS ======-->
     <script src="{{asset('assets/digital/assets/js/main.js')}}"></script>
 </body>
-
 </html>
