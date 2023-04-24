@@ -716,7 +716,7 @@
             </div>
         </div>
         <div class="cta-shape">
-            <img src="assets/img/shape/cta-shape.png')}}" alt="Shape">
+            <img src="{{asset('assets/digital/assets/img/shape/cta-shape.png')}}" alt="Shape">
         </div>
     </section>
     <!--====== Call To Action End ======-->
