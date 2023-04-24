@@ -300,7 +300,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="section-heading text-center mb-40">
-                    <h3 class="title">Why do Gigworkers <span style="color:orange;">work with us <span style="color:red;">?</span></span> work with us?</h3>
+                    <h3 class="title">Why do Gigworkers <span style="color:orange;">work with us <span style="color:red;">?</span></span></h3>
                     <span class="tagline">Herody helps gigworkers to start the journey of regular earnings by working remotely. We also help them to get growth opportunities by enhancing their skillset.</span>
                 </div>
             </div>
