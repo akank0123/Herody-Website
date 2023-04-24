@@ -724,55 +724,13 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="section-heading text-center mb-40">
-                    <h3 class="title">Featured in Media</h3>
+                    <h3 class="title">We are in news</h3>
                 </div>
             </div>
         </div><br><br>
         <div class="slider">
             <div class="slide-track">
-                <div class="slide">
-                    <a href="https://m.dailyhunt.in/news/india/english/businesswireindia-epaper-bwireind/gig+working+platform+herody+to+create+over+10+million+jobs-newsid-n415771870?listname=newspaperLanding&topic=general&index=3&topicIndex=11&mode=pwa&action=click" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 2.png')}}" alt="Image" width="80%" height="90%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://www.theweek.in/wire-updates/business/2022/08/23/pwr9-herody.html" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 3.png')}}" alt="Image" width="80%" height="90%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://smestreet.in/infocus/business-wire-india-news/?for=N&Value=%2bB2edfb9xAWDZgtnsCziwwh6mN1NrnH0zAg2UH50nATmbwgGjNJD725OVwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 4.png')}}" alt="Image" width="80%" height="90%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://aninews.in/news/business/business/gig-working-platform-herody-to-create-over-10-million-jobs20220823121816/" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 5.png')}}" alt="Image" width="80%" height="90%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://en.hamarasamachar.in/p/businessnewswire.html?for=N&Value=gC00DoCM4uiupuPOSO3apQj8jDpE6y7UaQiclzLTcHpuogj8T4huQE3%2fVgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 7.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="#" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 8.png')}}" alt="Image" width="80%" height="90%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://www.newdelhitimes.com/business-wire-india/?for=N&Value=XbyzGIcfL99Wo2dbV1lCFgjmvZ3%2fbFIQqggGC%2fiwQKjs9QixBazcNQNkhAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 9.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://investmentguruindia.com/businesswire.php?for=N&Value=Jljb9TiHCGWwodNMxwCgNQgGzTdZfNoIUAjqwhRlCHxL9Aign2lTe0UONQE%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 10.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="#" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 11.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://www.startupcityindia.com/business-express?for=N&Value=rw3atwrGCUEGnA3cLVAHjggqB8Cp78obTwg2wdjqvm5BrAjJxK7AO66yfwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 12.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://www.agrnews.in/p/businesswireindia.html?for=N&Value=jKa4i%2bbRZnD8Oir7PNyWYAjcpkz7O%2bsH4wh7PqTiCjcaZwjHi%2b%2b4pKCLGwM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 13.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://mediabulletins.com/business-wire-listing/?for=N&Value=KnN7ict%2f6ekmwnqAeHqRxwi%2bOXO3RWcWegj8VJzG4xpI0QhoGxacy0Z1qAM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 14.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="http://indispeaks.com/press-release/80299/gig-working-platform-herody-to-create-over-10-million-jobs" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 15.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://newskeeda.me/businesswireindia/?for=N&Value=FxZ%2fgRJfRk15V2mVo%2fjQzQhzuBdHmJ%2fWzghWvK3Wvp5sGghQlnLOl%2f%2fzcgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 16.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
+            <div class="slide">
                     <a href="https://report365.in/businesswireindia/?for=N&Value=bQolIzSxO77FhgZNtXap%2bwj7dtGs242mbAgnx3gbwIW5yQjybaAcL7w%2fyAM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 17.png')}}" alt="Image" width="100%" height="100%"></a>
                 </div>
                 <div class="slide">
@@ -783,6 +741,48 @@
                 </div>
                 <div class="slide">
                     <a href="https://odisharay.com/newsfeed.php?for=N&Value=0KkjciCgfWElwKUljgFZgAi8y1XnIiQB8gj%2f4LtlmwkqpwiEdftKUdl13gI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 20.png')}}" alt="Image" width="100%" height="100%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://m.dailyhunt.in/news/india/english/businesswireindia-epaper-bwireind/gig+working+platform+herody+to+create+over+10+million+jobs-newsid-n415771870?listname=newspaperLanding&topic=general&index=3&topicIndex=11&mode=pwa&action=click" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 2.png')}}" alt="Image" width="80%" height="90%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://smestreet.in/infocus/business-wire-india-news/?for=N&Value=%2bB2edfb9xAWDZgtnsCziwwh6mN1NrnH0zAg2UH50nATmbwgGjNJD725OVwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 4.png')}}" alt="Image" width="80%" height="90%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.newdelhitimes.com/business-wire-india/?for=N&Value=XbyzGIcfL99Wo2dbV1lCFgjmvZ3%2fbFIQqggGC%2fiwQKjs9QixBazcNQNkhAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 9.png')}}" alt="Image" width="100%" height="100%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://aninews.in/news/business/business/gig-working-platform-herody-to-create-over-10-million-jobs20220823121816/" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 5.png')}}" alt="Image" width="80%" height="90%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://en.hamarasamachar.in/p/businessnewswire.html?for=N&Value=gC00DoCM4uiupuPOSO3apQj8jDpE6y7UaQiclzLTcHpuogj8T4huQE3%2fVgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 7.png')}}" alt="Image" width="100%" height="100%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.startupcityindia.com/business-express?for=N&Value=rw3atwrGCUEGnA3cLVAHjggqB8Cp78obTwg2wdjqvm5BrAjJxK7AO66yfwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 12.png')}}" alt="Image" width="100%" height="100%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.agrnews.in/p/businesswireindia.html?for=N&Value=jKa4i%2bbRZnD8Oir7PNyWYAjcpkz7O%2bsH4wh7PqTiCjcaZwjHi%2b%2b4pKCLGwM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 13.png')}}" alt="Image" width="100%" height="100%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://investmentguruindia.com/businesswire.php?for=N&Value=Jljb9TiHCGWwodNMxwCgNQgGzTdZfNoIUAjqwhRlCHxL9Aign2lTe0UONQE%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 10.png')}}" alt="Image" width="100%" height="100%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.theceo.in/business-express?for=N&Value=N5I8A8MZJ%2fbmfo%2bjor9FFAjfmYqnXZci%2bwgkRMyHfOEyvwi2hntNlHOyvAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 30.png')}}" alt="Image" width="100%" height="100%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.smechannels.com/business-wire-news/?for=N&Value=irDyFR3gCT1GxyTt2YdfeQiZORr9O35l%2bgjVcpRhU80N4QibeM%2fGyw2YaQI%3d"  target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 31.png')}}" alt="Image" width="100%" height="100%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.theweek.in/wire-updates/business/2022/08/23/pwr9-herody.html" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 3.png')}}" alt="Image" width="80%" height="90%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://mediabulletins.com/business-wire-listing/?for=N&Value=KnN7ict%2f6ekmwnqAeHqRxwi%2bOXO3RWcWegj8VJzG4xpI0QhoGxacy0Z1qAM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 14.png')}}" alt="Image" width="100%" height="100%"></a>
+                </div>
+                <div class="slide">
+                    <a href="http://indispeaks.com/press-release/80299/gig-working-platform-herody-to-create-over-10-million-jobs" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 15.png')}}" alt="Image" width="100%" height="100%"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://newskeeda.me/businesswireindia/?for=N&Value=FxZ%2fgRJfRk15V2mVo%2fjQzQhzuBdHmJ%2fWzghWvK3Wvp5sGghQlnLOl%2f%2fzcgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 16.png')}}" alt="Image" width="100%" height="100%"></a>
                 </div>
                 <div class="slide">
                     <a href="http://uniindia.com/gig-working-platform-herody-to-create-over-10-million-jobs/business-wire-india/news/2806828.html" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 22.png')}}" alt="Image" width="100%" height="100%"></a>
@@ -809,31 +809,16 @@
                     <a href="https://www.bignewsnetwork.com/news/272662589/gig-working-platform-herody-to-create-over-10-million-jobs" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 29.png')}}" alt="Image" width="100%" height="100%"></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.theceo.in/business-express?for=N&Value=N5I8A8MZJ%2fbmfo%2bjor9FFAjfmYqnXZci%2bwgkRMyHfOEyvwi2hntNlHOyvAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 30.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://www.smechannels.com/business-wire-news/?for=N&Value=irDyFR3gCT1GxyTt2YdfeQiZORr9O35l%2bgjVcpRhU80N4QibeM%2fGyw2YaQI%3d"  target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 31.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
                     <a href="https://www.sptimes.in/p/businesswireindia.html?for=N&Value=wS8UGWArzqcocJSgZl%2f6PAip0BAK%2fVrccQgyShNmOT6D7QisliPsMhbJNQM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 32.png')}}" alt="Image" width="100%" height="100%"></a>
                 </div>
                 <div class="slide">
                     <a href="https://dailysach.in/corporate-news-india?for=N&Value=XxQELl3Dt6cGdmBzPjklPwhIU3P6a3X8YAgxIp4Z4iz91QjKy%2b7OGgW8aQM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 33.png')}}" alt="Image" width="80%" height="80%"></a>
                 </div>
                 <div class="slide">
-                    <a href="#" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 34.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
                     <a href="https://lifeandtrendz.com/uncategorized/business-wire-2/?for=N&Value=TIKSPkrMvfP%2F3To%2FzXSzfwhymYoD%2FITe7QgW7BXh5dxuGAjO%2B8YHtdmL5AI%3D" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 35.png')}}" alt="Image" width="80%" height="80%"></a>
                 </div>
                 <div class="slide">
                     <a href="https://newsblare.com/businesswire-india/?for=N&Value=lpb4XXcVNIvwvm%2fVr8qD%2fwj7ZzEMj%2frOYQhOIpcH%2bWY36gjPl0OU77XzUAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 36.png')}}" alt="Image" width="80%" height="80%"></a>
-                </div>
-                <div class="slide">
-                    <a href="#"><img src="{{asset('assets/digital/assets/img/Media/l 37.png')}}" alt="Image" width="100%" height="100%"></a>
-                </div>
-                <div class="slide">
-                    <a href="#"><img src="{{asset('assets/digital/assets/img/Media/l 38.png')}}" alt="Image" width="100%" height="100%"></a>
                 </div>
                 <div class="slide">
                     <a href="http://www.bizwireexpress.com/showstorybwi.php?storyid=37981" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 39.png')}}" alt="Image" width="100%" height="100%"></a>
