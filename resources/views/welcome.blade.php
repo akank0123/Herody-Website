@@ -582,7 +582,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="section-heading text-center mb-40">
-                    <h3 class="title">Brand<span style="color:orange;"> That Trust</span> us</h3>
+                    <h3 class="title">Brand <span style="color:orange;"> That Trust</span> us</h3>
                 </div>
             </div>
         </div><br><br>
@@ -724,7 +724,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="section-heading text-center mb-40">
-                    <h3 class="title">We <span style="color:orange;">are in </span>news</h3>
+                    <h3 class="title">We <span style="color:orange;">are in </span> news</h3>
                 </div>
             </div>
         </div><br><br>
