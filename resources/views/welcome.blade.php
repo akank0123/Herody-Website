@@ -86,7 +86,7 @@
     <!--====== Start Header ======-->
     <header class="template-header absolute-header navbar-left sticky-header">
         <div class="topbar">
-            <p>Let's make something great together.</p>
+            <p >Let's make something great together.</p>
         </div>
         <div class="container">
             <div class="header-inner">
@@ -175,7 +175,7 @@
                 <div class="col-xl-5 col-lg-6 col-md-10">
                     <div class="hero-content">
                         <h1 class="hero-title wow fadeInDown" data-wow-delay="0.3s">
-                            We are the Future of Work
+                            We are the<span style="color:orange;">Future of</span> Work
                         </h1>
                         <p class="wow fadeInLeft" data-wow-delay="0.4s">
                             Work with us! <br> Complete Internships, Gigs, and projects on the Go.
@@ -237,7 +237,7 @@
     <section class="service-section section-gap">
         <div class="container">
             <div class="section-heading text-center mb-30">
-                <h2 class="title">Why do businesses work with us?</h2>
+            <h2 class="title">Why do businesses <span style="color:orange;">work with us <span style="color:red;">?</span></span> </h2>
                 <span class="tagline">Herody helps brands to get the work done with the distributed workforce and does complete end-to-end execution</span>
             </div>
             <div class="row justify-content-center">
@@ -300,7 +300,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="section-heading text-center mb-40">
-                    <h3 class="title">Why do Gigworkers work with us?</h3>
+                    <h3 class="title">Why do Gigworkers <span style="color:orange;">work with us <span style="color:red;">?</span></span> work with us?</h3>
                     <span class="tagline">Herody helps gigworkers to start the journey of regular earnings by working remotely. We also help them to get growth opportunities by enhancing their skillset.</span>
                 </div>
             </div>
@@ -582,7 +582,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="section-heading text-center mb-40">
-                    <h3 class="title">Brand That Trust us</h3>
+                    <h3 class="title">Brand That <span style="color:orange;">Trust us</span></h3>
                 </div>
             </div>
         </div><br><br>
@@ -724,7 +724,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="section-heading text-center mb-40">
-                    <h3 class="title">We are in news</h3>
+                    <h3 class="title">We are <span style="color:orange;">in news</span></h3>
                 </div>
             </div>
         </div><br><br>
