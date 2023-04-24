@@ -380,16 +380,15 @@
     <!--====== Call To Action End ======-->
 
     <!--====== Template Footer Start ======-->
-     <footer class="template-footer">
+    <footer class="template-footer">
         <div class="container">
             <div class="footer-widgets-area">
                 <div id="about" class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="widget contact-widget">
-                            <h4 class="widget-title">About Us</h4>
+                            <h4 class="widget-title">About H<span style="color:orange;">erod</span>y</h4>
                             <div class="contact-content">
                                <p>Herody helps brands to scale their business by breaking down their complex business requirements into tasks and by taking end to end execution.</p>
-                                <p> 4th Floor, Classic Converge, 17th Cross Road, Sector 6, HSR Layout, Bengaluru, Karnataka 560102</p>
                                 <img width="75" height="75" src="{{asset('assets/digital/assets/img/logo.png')}}" alt="Herody">
                             </div>
                         </div>
@@ -399,35 +398,25 @@
                             <h4 class="widget-title">Contact Us</h4>
                            <div class="contact-content">
                                 <div class="phone-number">
-                                    <span>Phone Number</span>
-                                    <a href="tel:02269124061">
-                                        <i class="fa-solid fa-phone"></i>
-                                        02269124061
-                                    </a>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p> 4th Floor, Classic Converge, 17th Cross Road, Sector 6, HSR Layout, Bengaluru, Karnataka 560102.</p>
                                 </div>
                                 <div class="phone-number">
-                                    <span>Email Address</span>
-                                    <a href="mailto:help@herody.in">
-                                        <i class="fa-solid fa-envelope"></i>
-                                       help@herody.in
-                                    </a>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>help@herody.in</p>
                                 </div>
-                               
-                                
                             </div>
                         </div>
                     </div>
-                    
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="widget newsletters-widget pl-xl-4">
                             <h4 class="widget-title">Businesses</h4>
                             <p>
                                 For any business releated queries reach us out at <a class="info-title" href="sales@herody.in">sales@herody.in</a>
                             </p>
-                           
                             <ul class="social-links">
                                 <li><span>Follow Us: </span></li>
-                                <li><a href="https://www.facebook.com/herodywebsite"><i class="fa-brands fa-facebook-square"></i></a></li>
+                               <li><a href="https://www.facebook.com/herodywebsite"><i class="fa-brands fa-facebook-square"></i></a></li>
                                  <li><a href="https://www.instagram.com/herodyapp/"><i class="fa-brands fa-instagram-square"></i></a></li>
                                 <li><a href="https://www.linkedin.com/company/herody/"><i class="fa-brands fa-linkedin"></i></a></li>
                             </ul>
