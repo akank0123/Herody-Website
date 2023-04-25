@@ -566,13 +566,12 @@
             </div>
         </div>
     </section>
-    <section class="call-to-action style-two" style="background-image:linear-gradient(blue,lightpink)">
+    <section class="call-to-action style-two" style="background-image:linear-gradient(darkblue,aqua)">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-12">
                     <div class="cta-content">
                         <h2 class="title">Download the Herody App now & Start your journey of earning money </h2>
-                        
                     </div>
                 </div>
             </div>
