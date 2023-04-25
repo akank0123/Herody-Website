@@ -392,9 +392,6 @@
                     <img src="{{asset('assets/digital/assets/img/colleges/9.png')}}" alt="Image" width="100%" height="100%">
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/10.png')}}" alt="Image" width="100%" height="100%">
-                </div>
-                <div class="slide">
                     <img src="{{asset('assets/digital/assets/img/colleges/11.png')}}" alt="Image" width="100%" height="100%">
                 </div>
                 <div class="slide">
