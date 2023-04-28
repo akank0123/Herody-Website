@@ -41,7 +41,96 @@
     font-weight: 600;
     line-height: 88px;
 }
+.slider .slide-track{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: max-content;
+    animation: runSlider 30s linear infinite;
+}
+.slider .slide img{
+    height: 150px;
+}
+.slider .slide{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 150px;
+    /* padding: 10px 0 10px 10px; */
+    margin-right: 50px;
+}
 .slider{
+    overflow: hidden;
+}
+@keyframes runSlider{
+    from{
+        transform: translateX(0);
+    }to{
+        transform: translateX(calc(-165px * 50));
+    }
+}
+ /*brand scroller  */
+ .brand-slider .brand-slide-track{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: max-content;
+    animation: brandrunSlider 20s linear infinite;
+}
+.brand-slider .slide img{
+    height: 150px;
+    width:180px;
+}
+.brand-slider .slide{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 180px;
+    /* padding: 10px 0 10px 10px; */
+    margin-right: 50px;
+}
+.brand-slider{
+    overflow: hidden;
+}
+@keyframes brandrunSlider{
+    from{
+        transform: translateX(0);
+    }to{
+        transform: translateX(calc(-165px * 24));
+    }
+}
+
+/* News Slider */
+.news-slider .news-slide-track{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: max-content;
+    animation: newsrunSlider 30s linear infinite;
+}
+.news-slider .slide img{
+    height: 190px;
+    width:275px;
+}
+.news-slider .slide{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 180px;
+    /* padding: 10px 0 10px 10px; */
+    margin-right: 50px;
+}
+.news-slider{
+    overflow: hidden;
+}
+@keyframes newsrunSlider{
+    from{
+        transform: translateX(0);
+    }to{
+        transform: translateX(calc(-165px * 35));
+    }
+}
+/* .slider{
 	height: 250px;
 	margin: auto;
 	position: relative;
@@ -65,7 +154,7 @@
 	width: 300px;
     padding:20px;
     
-}
+} */
     </style>
  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1TFE7Z5PC"></script>
@@ -371,194 +460,174 @@
         <div class="slider">
             <div class="slide-track">
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/1.png')}}" alt="Image"  width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/1.png')}}" alt="Image"  >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/2.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/2.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/3.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/3.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/4.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/4.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/5.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/5.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/7.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/7.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/9.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/9.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/11.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/10.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/12.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/11.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/13.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/12.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/14.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/13.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/15.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/14.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/16.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/15.png')}}" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/17.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/16.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/18.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/17.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/19.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/18.png')}}" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/20.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/19.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 1.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/20.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 2.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 1.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 3.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 2.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 4.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 3.png')}}" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 5.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 4.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 6.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 5.png')}}" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 7.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 6.png')}}" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 8.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 7.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 9.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 8.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 10.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 9.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 11.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 10.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 12.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 11.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 13.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 12.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 14.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 13.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/1.png')}}" alt="Image"  width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 14.png')}}" alt="Image">
+                </div>
+
+                <!-- Copy Image -->
+                <div class="slide">
+                    <img src="{{asset('assets/digital/assets/img/colleges/1.png')}}" alt="Image"  >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/2.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/2.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/3.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/3.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/4.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/4.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/5.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/5.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/7.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/7.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/9.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/9.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/10.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/10.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/11.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/11.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/12.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/12.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/13.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/13.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/14.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/14.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/15.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/15.png')}}" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/16.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/16.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/17.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/17.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/18.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/18.png')}}" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/19.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/19.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/20.png')}}" alt="Image" width="100%" height="100%">
-                </div>
-                <!-- Copy of Image -->
-                <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 1.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/20.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 2.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 1.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 3.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 2.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 4.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 3.png')}}" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 5.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 4.png')}}" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 6.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 5.png')}}" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 7.png')}}" alt="Image" width="100%" height="100%">
-                </div>
-                <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 8.png')}}" alt="Image" width="100%" height="100%">
-                </div>
-                <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 9.png')}}" alt="Image" width="100%" height="100%">
-                </div>
-                <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 10.png')}}" alt="Image" width="100%" height="100%">
-                </div>
-                <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 11.png')}}" alt="Image" width="100%" height="100%">
-                </div>
-                <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 12.png')}}" alt="Image" width="100%" height="100%">
-                </div>
-                <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 13.png')}}" alt="Image" width="100%" height="100%">
-                </div>
-                <div class="slide">
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 14.png')}}" alt="Image" width="100%" height="100%">
+                    <img src="{{asset('assets/digital/assets/img/colleges/c 6.png')}}" alt="Image">
                 </div>
             </div>
         </div>
@@ -582,115 +651,79 @@
                 </div>
             </div>
         </div><br><br>
-        <div class="slider">
-            <div class="slide-track">
-                <div class="slide">
-                    <img src="https://images.news18.com/ibnlive/uploads/2021/06/1623400286_waazirx.jpg" alt="Image" width="70%" height="80%">
+        <div class="brand-slider">
+            <div class="brand-slide-track">
+            <div class="slide">
+                    <img src="https://images.news18.com/ibnlive/uploads/2021/06/1623400286_waazirx.jpg" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="https://play-lh.googleusercontent.com/ryuYnI5Uy3GWAYFOYQJI-3IN1Gb0tPhd_UYeTuZA7AjP3NxL2ViTOrf5QsIIFNCWBdg" alt="Image" width="70%" height="80%">
+                    <img src="https://play-lh.googleusercontent.com/ryuYnI5Uy3GWAYFOYQJI-3IN1Gb0tPhd_UYeTuZA7AjP3NxL2ViTOrf5QsIIFNCWBdg" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Altbalaji_Logo.svg/1200px-Altbalaji_Logo.svg.png" alt="Image" width="70%" height="80%">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Altbalaji_Logo.svg/1200px-Altbalaji_Logo.svg.png" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://play-lh.googleusercontent.com/UP6ycSfGJD7_tsgxBc2uT5-jZKXDsmh-xy3OiYyS8DvZqNTV-YV0vr4MiHxzgcfpyfh_" alt="Image" width="70%" height="80%">
+                    <img src="https://play-lh.googleusercontent.com/UP6ycSfGJD7_tsgxBc2uT5-jZKXDsmh-xy3OiYyS8DvZqNTV-YV0vr4MiHxzgcfpyfh_" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://yt3.ggpht.com/ytc/AKedOLTRL7wSUj3TgGCio4HGEdI2pBjVkwSHX_lbUv5J2g=s900-c-k-c0x00ffffff-no-rj" alt="Image" width="70%" height="80%">
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLTRL7wSUj3TgGCio4HGEdI2pBjVkwSHX_lbUv5J2g=s900-c-k-c0x00ffffff-no-rj" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://static.businessworld.in/article/article_extra_large_image/1592306157_OnYVcO_upGrad.jpg" alt="Image" width="70%" height="80%">
+                    <img src="https://static.businessworld.in/article/article_extra_large_image/1592306157_OnYVcO_upGrad.jpg" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://yt3.ggpht.com/ytc/AKedOLSYtcTB8_vP8SKdGZFU2Gmu-yBEoNwrxCglQG5dtkQ=s900-c-k-c0x00ffffff-no-rj" alt="Image" width="70%" height="80%">
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLSYtcTB8_vP8SKdGZFU2Gmu-yBEoNwrxCglQG5dtkQ=s900-c-k-c0x00ffffff-no-rj" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://cdn.techinasia.com/data/images/CyiHd2qjZScc0c7VSRY6xBSijZDbX0YjwiqHEIZn.jpeg" alt="Image" width="70%" height="80%">
+                    <img src="https://cdn.techinasia.com/data/images/CyiHd2qjZScc0c7VSRY6xBSijZDbX0YjwiqHEIZn.jpeg" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/modified/5ef59a0e-f928-431b-9aed-19cbb789994a.png" alt="Image" width="70%" height="80%">
+                    <img src="https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/modified/5ef59a0e-f928-431b-9aed-19cbb789994a.png" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://image4.owler.com/logo/myscoot_owler_20190801_114744_original.jpg" alt="Image" width="70%" height="80%">
+                    <img src="https://image4.owler.com/logo/myscoot_owler_20190801_114744_original.jpg" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/HERE_logo.svg/1124px-HERE_logo.svg.png" alt="Image" width="70%" height="80%">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/HERE_logo.svg/1124px-HERE_logo.svg.png" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/TechGig.com_Logo.png" alt="Image" width="70%" height="80%">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/TechGig.com_Logo.png" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://images.news18.com/ibnlive/uploads/2021/06/1623400286_waazirx.jpg" alt="Image" width="70%" height="80%">
+                    <img src="https://images.news18.com/ibnlive/uploads/2021/06/1623400286_waazirx.jpg" alt="Image">
                 </div>
                 <div class="slide">
-                    <img src="https://play-lh.googleusercontent.com/ryuYnI5Uy3GWAYFOYQJI-3IN1Gb0tPhd_UYeTuZA7AjP3NxL2ViTOrf5QsIIFNCWBdg" alt="Image" width="70%" height="80%">
+                    <img src="https://play-lh.googleusercontent.com/ryuYnI5Uy3GWAYFOYQJI-3IN1Gb0tPhd_UYeTuZA7AjP3NxL2ViTOrf5QsIIFNCWBdg" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Altbalaji_Logo.svg/1200px-Altbalaji_Logo.svg.png" alt="Image" width="70%" height="80%">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Altbalaji_Logo.svg/1200px-Altbalaji_Logo.svg.png" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://play-lh.googleusercontent.com/UP6ycSfGJD7_tsgxBc2uT5-jZKXDsmh-xy3OiYyS8DvZqNTV-YV0vr4MiHxzgcfpyfh_" alt="Image" width="70%" height="80%">
+                    <img src="https://play-lh.googleusercontent.com/UP6ycSfGJD7_tsgxBc2uT5-jZKXDsmh-xy3OiYyS8DvZqNTV-YV0vr4MiHxzgcfpyfh_" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://yt3.ggpht.com/ytc/AKedOLTRL7wSUj3TgGCio4HGEdI2pBjVkwSHX_lbUv5J2g=s900-c-k-c0x00ffffff-no-rj" alt="Image" width="70%" height="80%">
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLTRL7wSUj3TgGCio4HGEdI2pBjVkwSHX_lbUv5J2g=s900-c-k-c0x00ffffff-no-rj" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://static.businessworld.in/article/article_extra_large_image/1592306157_OnYVcO_upGrad.jpg" alt="Image" width="70%" height="80%">
+                    <img src="https://static.businessworld.in/article/article_extra_large_image/1592306157_OnYVcO_upGrad.jpg" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://yt3.ggpht.com/ytc/AKedOLSYtcTB8_vP8SKdGZFU2Gmu-yBEoNwrxCglQG5dtkQ=s900-c-k-c0x00ffffff-no-rj" alt="Image" width="70%" height="80%">
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLSYtcTB8_vP8SKdGZFU2Gmu-yBEoNwrxCglQG5dtkQ=s900-c-k-c0x00ffffff-no-rj" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://cdn.techinasia.com/data/images/CyiHd2qjZScc0c7VSRY6xBSijZDbX0YjwiqHEIZn.jpeg" alt="Image" width="70%" height="80%">
+                    <img src="https://cdn.techinasia.com/data/images/CyiHd2qjZScc0c7VSRY6xBSijZDbX0YjwiqHEIZn.jpeg" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/modified/5ef59a0e-f928-431b-9aed-19cbb789994a.png" alt="Image" width="70%" height="80%">
+                    <img src="https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/modified/5ef59a0e-f928-431b-9aed-19cbb789994a.png" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://image4.owler.com/logo/myscoot_owler_20190801_114744_original.jpg" alt="Image" width="70%" height="80%">
+                    <img src="https://image4.owler.com/logo/myscoot_owler_20190801_114744_original.jpg" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/HERE_logo.svg/1124px-HERE_logo.svg.png" alt="Image" width="70%" height="80%">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/HERE_logo.svg/1124px-HERE_logo.svg.png" alt="Image" >
                 </div>
                 <div class="slide">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/TechGig.com_Logo.png" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://images.news18.com/ibnlive/uploads/2021/06/1623400286_waazirx.jpg" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://play-lh.googleusercontent.com/ryuYnI5Uy3GWAYFOYQJI-3IN1Gb0tPhd_UYeTuZA7AjP3NxL2ViTOrf5QsIIFNCWBdg" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Altbalaji_Logo.svg/1200px-Altbalaji_Logo.svg.png" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://play-lh.googleusercontent.com/UP6ycSfGJD7_tsgxBc2uT5-jZKXDsmh-xy3OiYyS8DvZqNTV-YV0vr4MiHxzgcfpyfh_" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://yt3.ggpht.com/ytc/AKedOLTRL7wSUj3TgGCio4HGEdI2pBjVkwSHX_lbUv5J2g=s900-c-k-c0x00ffffff-no-rj" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://static.businessworld.in/article/article_extra_large_image/1592306157_OnYVcO_upGrad.jpg" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://yt3.ggpht.com/ytc/AKedOLSYtcTB8_vP8SKdGZFU2Gmu-yBEoNwrxCglQG5dtkQ=s900-c-k-c0x00ffffff-no-rj" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://cdn.techinasia.com/data/images/CyiHd2qjZScc0c7VSRY6xBSijZDbX0YjwiqHEIZn.jpeg" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/modified/5ef59a0e-f928-431b-9aed-19cbb789994a.png" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://image4.owler.com/logo/myscoot_owler_20190801_114744_original.jpg" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/HERE_logo.svg/1124px-HERE_logo.svg.png" alt="Image" width="70%" height="80%">
-                </div>
-                <div class="slide">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/TechGig.com_Logo.png" alt="Image" width="70%" height="80%">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/TechGig.com_Logo.png" alt="Image" >
                 </div>
             </div>
         </div>
@@ -724,104 +757,105 @@
                 </div>
             </div>
         </div><br><br>
-        <div class="slider">
-            <div class="slide-track">
-            <div class="slide">
-                    <a href="https://report365.in/businesswireindia/?for=N&Value=bQolIzSxO77FhgZNtXap%2bwj7dtGs242mbAgnx3gbwIW5yQjybaAcL7w%2fyAM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 17.png')}}" alt="Image" width="100%" height="100%"></a>
+        <div class="news-slider">
+            <div class="news-slide-track">
+                <div class="slide">
+                    <a href="https://m.dailyhunt.in/news/india/english/businesswireindia-epaper-bwireind/gig+working+platform+herody+to+create+over+10+million+jobs-newsid-n415771870?listname=newspaperLanding&topic=general&index=3&topicIndex=11&mode=pwa&action=click" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 2.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://kolkatalifestyle.com/press-releases?for=N&Value=v9XGeSZs%2bIvWjsiJSm3MjwgOhE4UXGtPzQiSxW1xB%2f8q2QjlOTTWKI7nmAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 18.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://www.theweek.in/wire-updates/business/2022/08/23/pwr9-herody.html" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 3.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.illustrateddailynews.com/gig-working-platform-herody-to-create-over-10-million-jobs/" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 19.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://smestreet.in/infocus/business-wire-india-news/?for=N&Value=%2bB2edfb9xAWDZgtnsCziwwh6mN1NrnH0zAg2UH50nATmbwgGjNJD725OVwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 4.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://odisharay.com/newsfeed.php?for=N&Value=0KkjciCgfWElwKUljgFZgAi8y1XnIiQB8gj%2f4LtlmwkqpwiEdftKUdl13gI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 20.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://aninews.in/news/business/business/gig-working-platform-herody-to-create-over-10-million-jobs20220823121816/" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 5.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://m.dailyhunt.in/news/india/english/businesswireindia-epaper-bwireind/gig+working+platform+herody+to+create+over+10+million+jobs-newsid-n415771870?listname=newspaperLanding&topic=general&index=3&topicIndex=11&mode=pwa&action=click" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 2.png')}}" alt="Image" width="80%" height="90%"></a>
+                    <a href="https://en.hamarasamachar.in/p/businessnewswire.html?for=N&Value=gC00DoCM4uiupuPOSO3apQj8jDpE6y7UaQiclzLTcHpuogj8T4huQE3%2fVgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 7.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://smestreet.in/infocus/business-wire-india-news/?for=N&Value=%2bB2edfb9xAWDZgtnsCziwwh6mN1NrnH0zAg2UH50nATmbwgGjNJD725OVwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 4.png')}}" alt="Image" width="80%" height="90%"></a>
+                    <a href="https://www.newdelhitimes.com/business-wire-india/?for=N&Value=XbyzGIcfL99Wo2dbV1lCFgjmvZ3%2fbFIQqggGC%2fiwQKjs9QixBazcNQNkhAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 9.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.newdelhitimes.com/business-wire-india/?for=N&Value=XbyzGIcfL99Wo2dbV1lCFgjmvZ3%2fbFIQqggGC%2fiwQKjs9QixBazcNQNkhAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 9.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://investmentguruindia.com/businesswire.php?for=N&Value=Jljb9TiHCGWwodNMxwCgNQgGzTdZfNoIUAjqwhRlCHxL9Aign2lTe0UONQE%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 10.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://aninews.in/news/business/business/gig-working-platform-herody-to-create-over-10-million-jobs20220823121816/" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 5.png')}}" alt="Image" width="80%" height="90%"></a>
+                    <a href="https://www.startupcityindia.com/business-express?for=N&Value=rw3atwrGCUEGnA3cLVAHjggqB8Cp78obTwg2wdjqvm5BrAjJxK7AO66yfwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 12.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://en.hamarasamachar.in/p/businessnewswire.html?for=N&Value=gC00DoCM4uiupuPOSO3apQj8jDpE6y7UaQiclzLTcHpuogj8T4huQE3%2fVgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 7.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://www.agrnews.in/p/businesswireindia.html?for=N&Value=jKa4i%2bbRZnD8Oir7PNyWYAjcpkz7O%2bsH4wh7PqTiCjcaZwjHi%2b%2b4pKCLGwM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 13.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.startupcityindia.com/business-express?for=N&Value=rw3atwrGCUEGnA3cLVAHjggqB8Cp78obTwg2wdjqvm5BrAjJxK7AO66yfwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 12.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://mediabulletins.com/business-wire-listing/?for=N&Value=KnN7ict%2f6ekmwnqAeHqRxwi%2bOXO3RWcWegj8VJzG4xpI0QhoGxacy0Z1qAM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 14.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.agrnews.in/p/businesswireindia.html?for=N&Value=jKa4i%2bbRZnD8Oir7PNyWYAjcpkz7O%2bsH4wh7PqTiCjcaZwjHi%2b%2b4pKCLGwM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 13.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="http://indispeaks.com/press-release/80299/gig-working-platform-herody-to-create-over-10-million-jobs" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 15.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://investmentguruindia.com/businesswire.php?for=N&Value=Jljb9TiHCGWwodNMxwCgNQgGzTdZfNoIUAjqwhRlCHxL9Aign2lTe0UONQE%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 10.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://newskeeda.me/businesswireindia/?for=N&Value=FxZ%2fgRJfRk15V2mVo%2fjQzQhzuBdHmJ%2fWzghWvK3Wvp5sGghQlnLOl%2f%2fzcgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 16.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.theceo.in/business-express?for=N&Value=N5I8A8MZJ%2fbmfo%2bjor9FFAjfmYqnXZci%2bwgkRMyHfOEyvwi2hntNlHOyvAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 30.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://report365.in/businesswireindia/?for=N&Value=bQolIzSxO77FhgZNtXap%2bwj7dtGs242mbAgnx3gbwIW5yQjybaAcL7w%2fyAM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 17.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.smechannels.com/business-wire-news/?for=N&Value=irDyFR3gCT1GxyTt2YdfeQiZORr9O35l%2bgjVcpRhU80N4QibeM%2fGyw2YaQI%3d"  target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 31.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://kolkatalifestyle.com/press-releases?for=N&Value=v9XGeSZs%2bIvWjsiJSm3MjwgOhE4UXGtPzQiSxW1xB%2f8q2QjlOTTWKI7nmAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 18.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.theweek.in/wire-updates/business/2022/08/23/pwr9-herody.html" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 3.png')}}" alt="Image" width="80%" height="90%"></a>
+                    <a href="https://www.illustrateddailynews.com/gig-working-platform-herody-to-create-over-10-million-jobs/" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 19.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://mediabulletins.com/business-wire-listing/?for=N&Value=KnN7ict%2f6ekmwnqAeHqRxwi%2bOXO3RWcWegj8VJzG4xpI0QhoGxacy0Z1qAM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 14.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://odisharay.com/newsfeed.php?for=N&Value=0KkjciCgfWElwKUljgFZgAi8y1XnIiQB8gj%2f4LtlmwkqpwiEdftKUdl13gI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 20.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="http://indispeaks.com/press-release/80299/gig-working-platform-herody-to-create-over-10-million-jobs" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 15.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="http://uniindia.com/gig-working-platform-herody-to-create-over-10-million-jobs/business-wire-india/news/2806828.html" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 22.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://newskeeda.me/businesswireindia/?for=N&Value=FxZ%2fgRJfRk15V2mVo%2fjQzQhzuBdHmJ%2fWzghWvK3Wvp5sGghQlnLOl%2f%2fzcgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 16.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://www.mangalorean.com/business-wire/?for=N&Value=ivwgYn8tgzmDpVLWRyEfIAgKoGeTp7uO%2bwjxlvVPC%2fmTqAiTXUlGxIJLqgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 23.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="http://uniindia.com/gig-working-platform-herody-to-create-over-10-million-jobs/business-wire-india/news/2806828.html" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 22.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://timestech.in/businesswire/?for=N&Value=Lm2HI7AR%2bQjboleXTYV3FQjy4gLzFgdCiwgpj%2f9KFmteIwiEatIMtMd%2boAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 24.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.mangalorean.com/business-wire/?for=N&Value=ivwgYn8tgzmDpVLWRyEfIAgKoGeTp7uO%2bwjxlvVPC%2fmTqAiTXUlGxIJLqgM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 23.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://www.businesswireindia.com/releasepreview/80299?for=adminpreview" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 25.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://timestech.in/businesswire/?for=N&Value=Lm2HI7AR%2bQjboleXTYV3FQjy4gLzFgdCiwgpj%2f9KFmteIwiEatIMtMd%2boAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 24.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://www.afternoonvoice.com/business-wire-india?for=N&Value=nTZ0hItlPOfRC6AVZA06LghYzU2pZGdNcggL4wEdcqPtHwhhbW%2fVlsULXQM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 26.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.businesswireindia.com/releasepreview/80299?for=adminpreview" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 25.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://theindiabizz.com/web-content-press-release/?for=N&Value=S0hdxyVEsWjpFhG5Ux24nQjRKY5HXxDirQi9zWDgAQ0XbAhDUScELMW%2buAM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 27.png')}}" alt="Image"></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.afternoonvoice.com/business-wire-india?for=N&Value=nTZ0hItlPOfRC6AVZA06LghYzU2pZGdNcggL4wEdcqPtHwhhbW%2fVlsULXQM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 26.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://www.htsyndication.com/business-wire-india/article/gig-working-platform-herody-to-create-over-10-million-jobs/63794444" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 28.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://theindiabizz.com/web-content-press-release/?for=N&Value=S0hdxyVEsWjpFhG5Ux24nQjRKY5HXxDirQi9zWDgAQ0XbAhDUScELMW%2buAM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 27.png')}}" alt="Image" width="80%" height="80%"></a>
+                    <a href="https://www.bignewsnetwork.com/news/272662589/gig-working-platform-herody-to-create-over-10-million-jobs" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 29.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.htsyndication.com/business-wire-india/article/gig-working-platform-herody-to-create-over-10-million-jobs/63794444" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 28.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://www.theceo.in/business-express?for=N&Value=N5I8A8MZJ%2fbmfo%2bjor9FFAjfmYqnXZci%2bwgkRMyHfOEyvwi2hntNlHOyvAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 30.png')}}" alt="Image"></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.bignewsnetwork.com/news/272662589/gig-working-platform-herody-to-create-over-10-million-jobs" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 29.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://www.smechannels.com/business-wire-news/?for=N&Value=irDyFR3gCT1GxyTt2YdfeQiZORr9O35l%2bgjVcpRhU80N4QibeM%2fGyw2YaQI%3d"  target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 31.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://www.sptimes.in/p/businesswireindia.html?for=N&Value=wS8UGWArzqcocJSgZl%2f6PAip0BAK%2fVrccQgyShNmOT6D7QisliPsMhbJNQM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 32.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://www.sptimes.in/p/businesswireindia.html?for=N&Value=wS8UGWArzqcocJSgZl%2f6PAip0BAK%2fVrccQgyShNmOT6D7QisliPsMhbJNQM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 32.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://dailysach.in/corporate-news-india?for=N&Value=XxQELl3Dt6cGdmBzPjklPwhIU3P6a3X8YAgxIp4Z4iz91QjKy%2b7OGgW8aQM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 33.png')}}" alt="Image" width="80%" height="80%"></a>
+                    <a href="https://dailysach.in/corporate-news-india?for=N&Value=XxQELl3Dt6cGdmBzPjklPwhIU3P6a3X8YAgxIp4Z4iz91QjKy%2b7OGgW8aQM%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 33.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://lifeandtrendz.com/uncategorized/business-wire-2/?for=N&Value=TIKSPkrMvfP%2F3To%2FzXSzfwhymYoD%2FITe7QgW7BXh5dxuGAjO%2B8YHtdmL5AI%3D" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 35.png')}}" alt="Image" width="80%" height="80%"></a>
+                    <a href="https://lifeandtrendz.com/uncategorized/business-wire-2/?for=N&Value=TIKSPkrMvfP%2F3To%2FzXSzfwhymYoD%2FITe7QgW7BXh5dxuGAjO%2B8YHtdmL5AI%3D" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 35.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://newsblare.com/businesswire-india/?for=N&Value=lpb4XXcVNIvwvm%2fVr8qD%2fwj7ZzEMj%2frOYQhOIpcH%2bWY36gjPl0OU77XzUAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 36.png')}}" alt="Image" width="80%" height="80%"></a>
+                    <a href="https://newsblare.com/businesswire-india/?for=N&Value=lpb4XXcVNIvwvm%2fVr8qD%2fwj7ZzEMj%2frOYQhOIpcH%2bWY36gjPl0OU77XzUAI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 36.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="http://www.bizwireexpress.com/showstorybwi.php?storyid=37981" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 39.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="http://www.bizwireexpress.com/showstorybwi.php?storyid=37981" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 39.png')}}" alt="Image" ></a>
                 </div>
                 <div class="slide">
-                    <a href="https://channeldrive.in/businesswireindia/?for=N&Value=JOkQcVbgyerj89465ajXXAjuBy0Pw3tGAAjSkFDamH%2bB6ggWrLE2tCFRRwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 40.png')}}" alt="Image" width="100%" height="100%"></a>
+                    <a href="https://channeldrive.in/businesswireindia/?for=N&Value=JOkQcVbgyerj89465ajXXAjuBy0Pw3tGAAjSkFDamH%2bB6ggWrLE2tCFRRwI%3d" target="_blank"><img src="{{asset('assets/digital/assets/img/Media/l 40.png')}}" alt="Image" ></a>
                 </div>
+                
             </div>
         </div>
     </section>
