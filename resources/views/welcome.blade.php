@@ -368,7 +368,7 @@
                 </div>
             </div>
         </div><br><br>
-        <!-- <div class="slider">
+        <div class="slider">
             <div class="slide-track">
                 <div class="slide">
                     <img src="{{asset('assets/digital/assets/img/colleges/1.png')}}" alt="Image"  width="100%" height="100%">
@@ -516,7 +516,7 @@
                 </div>
                 <div class="slide">
                     <img src="{{asset('assets/digital/assets/img/colleges/20.png')}}" alt="Image" width="100%" height="100%">
-                </div> -->
+                </div>
                 <!-- Copy of Image -->
                 <div class="slide">
                     <img src="{{asset('assets/digital/assets/img/colleges/c 1.png')}}" alt="Image" width="100%" height="100%">
