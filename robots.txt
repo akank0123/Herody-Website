@@ -1,3 +1,3 @@
 user-agent: *
 Allow: /
-sitemap:https://herody.in/sitemap.xml
+sitemap:https://herodyapp.in/sitemap.xml
