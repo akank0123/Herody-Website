@@ -41,36 +41,7 @@
     font-weight: 600;
     line-height: 88px;
 }
-
-.slider ul{
-    padding: 0;
-    list-style: none;
-    display: flex;
-    width: max-content;
-    animation: runSlider 40s linear infinite;
-}
-.slider img{
-    height: 180px;
-    width:180px;
-}
-.slider li{
-    display: flex;
-    justify-content: start;
-    width: 180px;
-    margin-right: 50px;
-}
 .slider{
-    overflow: hidden;
-    margin-bottom:150px;
-}
-@keyframes runSlider{
-    from{
-        transform: translateX(0);
-    }to{
-        transform: translateX(calc(-165px * 50));
-    }
-}
-/* .slider{
 	height: 250px;
 	margin: auto;
 	position: relative;
@@ -94,7 +65,7 @@
 	width: 300px;
     padding:20px;
     
-} */
+}
     </style>
  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1TFE7Z5PC"></script>
@@ -397,174 +368,6 @@
                 </div>
             </div>
         </div><br><br>
-        <div class="slider">
-            <ul>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/1.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/2.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/3.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/4.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/5.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/7.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/9.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/11.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/12.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/13.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/14.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/15.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/16.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/17.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/18.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/19.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/20.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 1.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 2.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 3.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 4.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 5.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 6.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 7.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 8.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 9.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 10.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 11.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 12.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 13.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 14.png')}}" alt="College Image"> 
-                </li>
-                
-                <!-- copy image -->
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/1.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/2.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/3.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/4.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/5.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/7.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/9.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/11.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/12.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/13.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/14.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/15.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/16.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/17.png')}}" alt="College Image">
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/18.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/19.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/20.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 1.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 2.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 3.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 4.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 5.png')}}" alt="College Image"> 
-                </li>
-                <li>
-                    <img src="{{asset('assets/digital/assets/img/colleges/c 6.png')}}" alt="College Image"> 
-                </li>
-            </ul>
-        </div>
         <!-- <div class="slider">
             <div class="slide-track">
                 <div class="slide">
@@ -715,7 +518,7 @@
                     <img src="{{asset('assets/digital/assets/img/colleges/20.png')}}" alt="Image" width="100%" height="100%">
                 </div> -->
                 <!-- Copy of Image -->
-                <!-- <div class="slide">
+                <div class="slide">
                     <img src="{{asset('assets/digital/assets/img/colleges/c 1.png')}}" alt="Image" width="100%" height="100%">
                 </div>
                 <div class="slide">
@@ -759,7 +562,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <section class="call-to-action style-two" style="background-image:linear-gradient(darkblue,aqua)">
         <div class="container">
             <div class="row align-items-center justify-content-between">
