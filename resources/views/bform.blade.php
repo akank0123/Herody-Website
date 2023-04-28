@@ -9,6 +9,7 @@
  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herody </title>
+    <link rel="canonical" href="https://herodyapp.in/"/>
     <link rel="shortcut icon" href="{{asset('assets/main/images/Viti.png')}}">
     <!--====== Animate Css ======-->
     <link rel="stylesheet" href="{{asset('assets/digital/assets/css/animate.min.css')}}" />
