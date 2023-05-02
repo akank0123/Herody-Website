@@ -895,7 +895,7 @@
                         <div class="widget newsletters-widget pl-xl-4">
                             <h4 class="widget-title">Businesses</h4>
                             <p>
-                                For any business releated queries reach us out at <a class="info-title" href="sales@herody.in">sales@herody.in</a>
+                                For any business releated queries reach us out at <strong>raj@herody.in</strong> 
                             </p>
                             <ul class="social-links">
                                 <li><span>Follow Us: </span></li>
