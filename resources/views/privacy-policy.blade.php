@@ -10,7 +10,6 @@
 <link href="{{asset('assets/main/css/bootstrap.min.css')}}" rel="stylesheet" />
 <link href="{{asset('assets/main/css/live.min.css')}}" rel="stylesheet" />
 <link rel="canonical" href="https://herody.in/"/>
-<meta name="robots" content="noindex" />
 
 </head>
 <body>
